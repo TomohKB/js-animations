@@ -25,7 +25,9 @@ ul {
 .list .list-item .list-content {
   line-height: 1.5;
   height: 0rem;
+  /* 初期状態では高さは0(非表示) */
   overflow: hidden;
+  /* 内容を隠す */
   transition: height 0.5s ease 0s, padding 0.5s ease 0s;
   margin: 0 0 10px 0;
 }
